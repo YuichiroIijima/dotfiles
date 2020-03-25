@@ -12,5 +12,8 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.donotVerifyTags": true,
     "prettier.semi": true,
-    "prettier.singleQuote": true
+    "prettier.singleQuote": true,
+    "emmet.variables": {
+        "lang": "ja"
+    }
 }
