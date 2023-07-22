@@ -15,5 +15,13 @@
     "prettier.singleQuote": true,
     "emmet.variables": {
         "lang": "ja"
+    },
+    "terminal.integrated.profiles.osx": {
+        "zsh": {
+            "path": "/bin/zsh", "args": ["-l", "-i"] 
+        }
+    },
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
     }
 }
