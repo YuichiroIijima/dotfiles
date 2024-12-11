@@ -1,27 +1,47 @@
 {
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
-    "editor.tabSize": 2,
-    "editor.wordWrap": "on",
-    "editor.formatOnSave": true,
-    "emmet.triggerExpansionOnTab": true,
-    "files.autoSave": "afterDelay",
-    "workbench.startupEditor": "newUntitledFile",
-    "git.autofetch": true,
-    "workbench.editor.enablePreview": false,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true,
-    "prettier.semi": true,
-    "prettier.singleQuote": true,
-    "emmet.variables": {
-        "lang": "ja"
-    },
-    "terminal.integrated.profiles.osx": {
-        "zsh": {
-            "path": "/bin/zsh", "args": ["-l", "-i"] 
-        }
-    },
-    "terminal.integrated.env.osx": {
-        "FIG_NEW_SESSION": "1"
+  "cSpell.languageSettings": [],
+  "cSpell.userWords": [
+    "fastapi",
+    "MICROCMS"
+  ],
+  "editor.accessibilitySupport": "off",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.variables": {
+    "lang": "ja"
+  },
+  "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "githubPullRequests.pullBranch": "never",
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "python.testing.pytestArgs": [
+    "command/reviews/tests",
+    "command/site_searches/tests"
+  ],
+  "redhat.telemetry.enabled": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1",
+    "Q_NEW_SESSION": "1"
+  },
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "args": [
+        "-l",
+        "-i"
+      ],
+      "path": "/bin/zsh"
     }
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true,
+  },
 }
