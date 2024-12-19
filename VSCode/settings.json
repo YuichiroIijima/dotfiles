@@ -1,9 +1,13 @@
 {
   "cSpell.languageSettings": [],
   "cSpell.userWords": [
+    "actix",
+    "askama",
+    "chrono",
     "clippy",
     "fastapi",
-    "MICROCMS"
+    "MICROCMS",
+    "rstest"
   ],
   "editor.accessibilitySupport": "off",
   "editor.formatOnPaste": true,
@@ -47,4 +51,9 @@
   },
   "rust-analyzer.checkOnSave": true,
   "rust-analyzer.check.command": "clippy",
+  "git.confirmSync": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "rust-analyzer.linkedProjects": ["/path/to/Cargo.toml"],
 }
